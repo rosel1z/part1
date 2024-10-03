@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./fonts/Gilroy/stylesheet.css">
+  
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <form class="row g-3">
+                        <div class="col-12">
+                            <label for="validationDefault01" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="validationDefault01" placeholder="Mark" required>
+                        </div>
+                        <div class="col-12">
+                            <label for="validationDefault02" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="validationDefault02" placeholder="Otto" required>
+                        </div>
+                        <div class="col-12">
+                            <button class="main_btn" type="submit">Submit
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect opacity="0.01" y="0.24707" width="24" height="22.984" fill="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3716 17.7917L23.4654 11.7009L13.3716 5.61011V10.9554H0.5V12.3919H13.3716V17.7917ZM14.8724 8.21432L20.6524 11.7012L14.8724 15.189V8.21432Z" fill="black"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Hide this modal and show the first with the button below.
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+            </div>
+            </div>
+        </div>
+        </div>
+      
+        <header class="header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="/">
+                        <img src="./images/logo/header_logo.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler align-items-center justify-content-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="./images/icons/close_btn.svg" alt="">
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    Course
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Program
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    About
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Tools
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Pricing
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="home">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7">
+                            <div class="home_left">
+                                <h1>
+                                    Unlocking Creativity
+                                </h1>
+                                <h6>
+                                    Why Design School is Your Path to Success
+                                </h6>
+                                <p>
+                                    In today’s fast-paced world, creative careers are in high demand, and design school offers a unique opportunity for aspiring artists and innovators to hone their skills. Attending a design school not only provides students with the technical skills needed.
+                                </p>
+                                <button" class="main_btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">
+                                    Register
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect opacity="0.01" y="0.24707" width="24" height="22.984" fill="white"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3716 17.7917L23.4654 11.7009L13.3716 5.61011V10.9554H0.5V12.3919H13.3716V17.7917ZM14.8724 8.21432L20.6524 11.7012L14.8724 15.189V8.21432Z" fill="black"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="home_right">
+                                <img src="./images/home_img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="slider">
+                <div class="container">
+                    <h3>
+                        The Art of Minimalism: Designing<br> Spaces That Breathe
+                    </h3>
+
+                    <div class="container slider_wrapper">
+                        <button class="slider-button-prev slider_btn">
+                            <img src="./images/icons/prev_btn.svg" alt="">
+                        </button>
+                        <div class="swiper sliderSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./images/slider1.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/slider2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="slider-button-next slider_btn">
+                            <img src="./images/icons/next_btn.svg" alt="">
+                        </button>
+                    </div>
+
+
+
+
+                    <div class="slider_more">
+
+
+                        
+                        <a href="#" class="main_btn">
+                            See more
+                            <svg width="32" height="27" viewBox="0 0 32 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect opacity="0.01" x="0.203598" y="0.388916" width="30.8982" height="26.2222" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.4185 20.4052L30.4136 13.4562L17.4185 6.50732V12.6057H0.847313V14.2446H17.4185V20.4052ZM19.3506 9.47844L26.792 13.4566L19.3506 17.4358V9.47844Z" fill="black"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="faq">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-5 faq_img">
+                            <div class="faq_img">
+                                <img src="./images/faq_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xl-7">
+                            <div class="faq_text">
+                                <h6>
+                                    Program
+                                </h6>
+                                <h3>
+                                    Product Design Program<br> details In this program
+                                </h3>
+                                <img src="./images/faq_img.png" alt="">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Learn all of the skills, tools, and processes
+                                            </button>
+                                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect y="0.411865" width="48" height="47.4758" fill="white" fill-opacity="0.01"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.85712 13.9765L42.8571 24.1661L6.85712 34.3232V13.9765ZM10.2953 18.3063V29.7656L30.6212 24.101L10.2953 18.3063Z" fill="black"/>
+                                            </svg>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    In today’s fast-paced world, creative careers are in high demand, and design school offers a unique opportunity for aspiring artists and innovators to hone their skills. Attending a design school not only provides students with the technical skills needed.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Work with an expert mentor and tutor
+                                            </button>
+                                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect y="0.411865" width="48" height="47.4758" fill="white" fill-opacity="0.01"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.85712 13.9765L42.8571 24.1661L6.85712 34.3232V13.9765ZM10.2953 18.3063V29.7656L30.6212 24.101L10.2953 18.3063Z" fill="black"/>
+                                            </svg>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    In today’s fast-paced world, creative careers are in high demand, and design school offers a unique opportunity for aspiring artists and innovators to hone their skills. Attending a design school not only provides students with the technical skills needed.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Receive tailored coaching from our Career
+                                            </button>
+                                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect y="0.411865" width="48" height="47.4758" fill="white" fill-opacity="0.01"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.85712 13.9765L42.8571 24.1661L6.85712 34.3232V13.9765ZM10.2953 18.3063V29.7656L30.6212 24.101L10.2953 18.3063Z" fill="black"/>
+                                            </svg>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    In today’s fast-paced world, creative careers are in high demand, and design school offers a unique opportunity for aspiring artists and innovators to hone their skills. Attending a design school not only provides students with the technical skills needed.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                Build an impressive portfolio
+                                            </button>
+                                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect y="0.411865" width="48" height="47.4758" fill="white" fill-opacity="0.01"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.85712 13.9765L42.8571 24.1661L6.85712 34.3232V13.9765ZM10.2953 18.3063V29.7656L30.6212 24.101L10.2953 18.3063Z" fill="black"/>
+                                            </svg>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    In today’s fast-paced world, creative careers are in high demand, and design school offers a unique opportunity for aspiring artists and innovators to hone their skills. Attending a design school not only provides students with the technical skills needed.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                Land a job as a UX designer
+                                            </button>
+                                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect y="0.411865" width="48" height="47.4758" fill="white" fill-opacity="0.01"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.85712 13.9765L42.8571 24.1661L6.85712 34.3232V13.9765ZM10.2953 18.3063V29.7656L30.6212 24.101L10.2953 18.3063Z" fill="black"/>
+                                            </svg>
+                                        </h2>
+                                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    In today’s fast-paced world, creative careers are in high demand, and design school offers a unique opportunity for aspiring artists and innovators to hone their skills. Attending a design school not only provides students with the technical skills needed.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- faq -->
+
+            <!-- product -->
+            <section class="product">
+                <div class="container">
+                    <div class="row product_in">
+                        <div class="col-xl-7">
+                            <h3>
+                                Product Design Fundamentals
+                            </h3>
+                            <p>
+                                At design school, students are immersed in a collaborative environment where they can learn from experienced mentors and gain insights from their peers. They work on real-world projects, allowing them to build a diverse portfolio that showcases their creativity and versatility Moreover, design schools often emphasize the importance of understanding user experience and market trends, enabling graduates to stay ahead in an ever-evolving landscape.
+                            </p>
+                        </div>
+                        <div class="col-xl-5 product_img">
+                            <img src="./images/product_img.png" alt="">
+                        </div>
+                    </div>
+
+
+                    
+                    <a href="#" class="main_btn" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+                        Register
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect opacity="0.01" width="40" height="40" fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M22.2859 30.5334L39.1091 19.9334L22.2859 9.33331V18.636H0.833336V21.136H22.2859V30.5334ZM24.7873 13.8655L34.4206 19.9339L24.7873 26.0039V13.8655Z" fill="black"/>
+                        </svg>
+                    </a>
+                </div>
+            </section>
+            <section class="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <div class="contact_text">
+                                <h6>
+                                    Get started
+                                </h6>
+                                <h3>
+                                    Let's start the first conversation
+                                </h3>
+                                <img class="contact_text_img" src="./images/contact_img.png" alt="">
+                                <form action="#">
+                                    <div class="row">
+                                        <div class="col-md-6 form_block">
+                                            <label for="name">
+                                                Your name
+                                            </label>
+                                            <input type="text" id="name" placeholder="Terner">
+                                        </div>
+                                        <div class="col-md-6 form_block form_block_two">
+                                            <label for="email">
+                                                Your E-Mail
+                                            </label>
+                                            <input type="email" id="email" placeholder="info@the18.design">
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="main_btn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+                                        Join
+                                      </button>
+
+                                   
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 contact_img">
+                            <img src="./images/contact_img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_top row">
+                    <div class="footer_left col-xl-4">
+                        <a href="/" class="footer_logo">
+                            <img src="./images/logo/footer_logo.svg" alt="">
+                        </a>
+                        <div class="footer_social d-flex align-items-center justify-content-center">
+                            <a href="#">
+                                <img src="/images/social1.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="/images/social2.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="/images/social3.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="/images/social4.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="/images/social5.svg" alt="">
+                            </a>
+                        </div>
+                        <span>
+                            © Matte Engine, all rights reserved.
+                        </span>
+                    </div>
+                    <div class="footer_block col-xl-2">
+                        <h6>
+                            Course
+                        </h6>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Info course
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Program
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Tools
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_block col-xl-2">
+                        <h6>
+                            Social
+                        </h6>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Twitter
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Instagram
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_block col-xl-2">
+                        <h6>
+                            Plans & Pricing
+                        </h6>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Pricing
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Team
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Business
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_block col-xl-2">
+                        <h6>
+                            Contacts
+                        </h6>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    About us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    How it works
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Pricing
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./js/main.js"></script>
+  
+</body>
+</html>
